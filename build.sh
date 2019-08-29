@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
+cargo build --release
 
-cp target/release/hello-rocket docker/
+cp target/release/rocket-svc docker/
 
 cd docker
 
-docker build -t hello-rocket:0.1.0 .
+docker build -t rocket-svc:0.1.0 .

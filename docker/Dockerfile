@@ -1,6 +1,6 @@
 FROM ubuntu 
 MAINTAINER deependra@gmail.com 
 
-COPY hello-rocket /home
+COPY rocket-svc /home
 WORKDIR /home
-CMD /home/hello-rocket
+CMD /home/rocket-svc
